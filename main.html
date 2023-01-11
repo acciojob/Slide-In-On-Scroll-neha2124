@@ -70,7 +70,10 @@
 			  const isScrollNotPass = window.scrollY < imgBottom
 	                      // console.log(isScrollNotPass) 
 			  if(isHalfShown && isScrollNotPass){
-				  slide.classList.add('acti slide.classList.remove('active')
+				  slide.classList.add('active')
+			  }
+			  else{
+				   slide.classList.remove('active')
 			  }
 		  })
 		  // console.log(window.innerHeight)
